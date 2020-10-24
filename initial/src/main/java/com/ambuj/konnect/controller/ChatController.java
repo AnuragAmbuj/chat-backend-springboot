@@ -1,7 +1,7 @@
-package com.example.messagingstompwebsocket.controller;
+package com.ambuj.konnect.controller;
 
-import com.example.messagingstompwebsocket.constants.CommonConstants;
-import com.example.messagingstompwebsocket.model.ChatMessage;
+import com.ambuj.konnect.model.ChatMessage;
+import com.ambuj.konnect.constants.CommonConstants;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;

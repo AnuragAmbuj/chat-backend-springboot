@@ -1,4 +1,4 @@
-package com.example.messagingstompwebsocket.model;
+package com.ambuj.konnect.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

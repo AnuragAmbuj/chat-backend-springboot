@@ -1,4 +1,4 @@
-package com.example.messagingstompwebsocket.exception;
+package com.ambuj.konnect.exception;
 
 import lombok.EqualsAndHashCode;
 import lombok.ToString;

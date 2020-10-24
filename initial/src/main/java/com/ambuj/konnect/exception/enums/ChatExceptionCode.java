@@ -1,4 +1,4 @@
-package com.example.messagingstompwebsocket.exception.enums;
+package com.ambuj.konnect.exception.enums;
 
 import lombok.Getter;
 

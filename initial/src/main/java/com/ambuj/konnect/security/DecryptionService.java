@@ -1,4 +1,4 @@
-package com.example.messagingstompwebsocket.security;
+package com.ambuj.konnect.security;
 
 public interface DecryptionService {
     String decrypt(String cipherText);

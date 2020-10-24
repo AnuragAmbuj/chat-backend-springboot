@@ -1,4 +1,4 @@
-package com.example.messagingstompwebsocket.handlers;
+package com.ambuj.konnect.handlers;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.Message;

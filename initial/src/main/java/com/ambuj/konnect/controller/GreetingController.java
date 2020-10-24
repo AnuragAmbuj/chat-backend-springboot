@@ -1,7 +1,7 @@
-package com.example.messagingstompwebsocket.controller;
+package com.ambuj.konnect.controller;
 
-import com.example.messagingstompwebsocket.model.Greeting;
-import com.example.messagingstompwebsocket.model.Sender;
+import com.ambuj.konnect.model.Sender;
+import com.ambuj.konnect.model.Greeting;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;

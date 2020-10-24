@@ -1,6 +1,6 @@
-package com.example.messagingstompwebsocket.ws;
+package com.ambuj.konnect.ws;
 
-import com.example.messagingstompwebsocket.handlers.CustomStompProtocolErrorHandler;
+import com.ambuj.konnect.handlers.CustomStompProtocolErrorHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -25,5 +25,6 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.setErrorHandler(handler);
         registry.addEndpoint("/gs-guide-websocket","/chat-socket").withSockJS();
+        registry.addEndpoint("/websock-chat","/p2p-scoket").withSockJS();
     }
 }

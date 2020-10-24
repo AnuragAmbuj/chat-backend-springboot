@@ -1,8 +1,8 @@
-package com.example.messagingstompwebsocket.security.impl;
+package com.ambuj.konnect.security.impl;
 
-import com.example.messagingstompwebsocket.exception.ChatException;
-import com.example.messagingstompwebsocket.exception.enums.ChatExceptionCode;
-import com.example.messagingstompwebsocket.security.EncryptionService;
+import com.ambuj.konnect.exception.ChatException;
+import com.ambuj.konnect.exception.enums.ChatExceptionCode;
+import com.ambuj.konnect.security.EncryptionService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
